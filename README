@@ -1,0 +1,1 @@
+I'm not sure why, but this only works using a chrome app called CORS that enables cross-origin resource sharing. I have no idea what that means or why it works. This was mostly created as an experiment into using the NBA api and JQuery's get JSON method. 

@@ -1,0 +1,243 @@
+body {
+	background-color: gray;
+	text-align: center;
+	
+	margin-left: 250px;
+	margin-right: 250px;
+	color: white;
+	background: url(https://media.istockphoto.com/photos/basketball-light-arena-picture-id518502541?k=6&m=518502541&s=612x612&w=0&h=qYq-z4qhyL3PCBKv00sW3qUQj4i6ghEuoiT_KHRMKUQ=) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#name {
+	font-family: 'Lobster', cursive;
+	font-size: 50px;
+}
+
+#title {
+	font-size: 50px;
+	margin: 35px;
+	font-family: 'Lobster', cursive;
+	color: #FFC72C;
+	border-bottom-style: solid;
+	border-bottom-size: 1px;
+	border-bottom-color: white;
+	padding-bottom: 10px;
+}
+
+#about {
+	margin-bottom: 35px;
+	font-size: 17px;
+	font-family: 'Patua One', cursive;
+}
+
+#player {
+	color: blue;
+}
+
+#statbox-header {
+	font-size: 25px;
+	font-family: 'Patua', cursive;
+}
+
+#statbox {
+	margin-top: 35px;
+	font-style: bold;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+.stat-card {
+	margin: 0px;
+	opacity: .75;
+}
+
+.inner {
+	border-size: 1px;
+	border-style: solid;
+	border-color: white;
+	height: 200px;
+	padding: 20px;
+	background-color: #702F8A;
+}
+
+.inner2 {
+	border-size: 1px;
+	border-style: solid;
+	border-color: white;
+	height: 100px;
+	padding: 10px;
+	background-color: #702F8A;
+}
+
+#middle-inner {
+
+}
+
+.inner-stat {
+	font-family: 'Patua One', cursive;
+	padding-top: 12px;
+	font-size: 60px;
+}
+
+.inner-stat2 {
+	font-family: 'Patua One', cursive;
+	padding-top: 6px;
+	font-size: 30px;
+}
+
+.inner-head {
+	font-family: 'Fugaz One', cursive;
+	color: #FFC72C;
+}
+
+.inner-head2 {
+	font-family: 'Fugaz One', cursive;
+	color: #FFC72C;
+}
+
+.statcard2 {
+	font-size: 5px;
+}
+
+.inner-stat2 {
+	font-family: 'Patua One', cursive;
+	padding-top: 12px;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
