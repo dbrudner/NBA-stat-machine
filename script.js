@@ -1,4 +1,6 @@
 // function to get a players stats and put them in their divs using a playerId 
+alert("Must have CORS enabled for this to work. Try downloading and enabling CORS chrome extension")
+
 var getStats = (playerId) => {
 	var url = "https://stats.nba.com/stats/playerprofilev2?PlayerID=" + playerId + "&Season=2017-18&PerMode=PerGame"
 	console.log(url);
