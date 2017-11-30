@@ -3,16 +3,17 @@ var getStats = (playerId) => {
 	var url = "https://stats.nba.com/stats/playerprofilev2?PlayerID=" + playerId + "&Season=2017-18&PerMode=PerGame"
 	console.log(url);
 	$.getJSON(url, function(data) {
-		$("#rebounds-inner").text(data.resultSets[0].rowSet[0][20]); //rebounds
-		$("#assists-inner").text(data.resultSets[0].rowSet[0][21]); //assists
-		$("#points-inner").text(data.resultSets[0].rowSet[0][26]); //points
-		$("#fg").text(((data.resultSets[0].rowSet[0][11])*100).toFixed(2) + "%");
-		$("#ft").text(((data.resultSets[0].rowSet[0][17])*100).toFixed(2) + "%");
-		$("#3pt").text(((data.resultSets[0].rowSet[0][14])*100).toFixed(2) + "%");
-		$("#stl").text((data.resultSets[0].rowSet[0][22]));
-		$("#blk").text((data.resultSets[0].rowSet[0][23]));
-		$("#tov").text((data.resultSets[0].rowSet[0][24]));
-		console.log(data.resultSets.length);
+		var currentSeason = data.resultSets[0].rowSet.length - 1
+		$("#rebounds-inner").text(data.resultSets[0].rowSet[currentSeason][20]); //rebounds
+		$("#assists-inner").text(data.resultSets[0].rowSet[currentSeason][21]); //assists
+		$("#points-inner").text(data.resultSets[0].rowSet[currentSeason][26]); //points
+		$("#fg").text(((data.resultSets[0].rowSet[currentSeason][11])*100).toFixed(2) + "%");
+		$("#ft").text(((data.resultSets[0].rowSet[currentSeason][17])*100).toFixed(2) + "%");
+		$("#3pt").text(((data.resultSets[0].rowSet[currentSeason][14])*100).toFixed(2) + "%");
+		$("#stl").text((data.resultSets[0].rowSet[currentSeason][22]));
+		$("#blk").text((data.resultSets[0].rowSet[currentSeason][23]));
+		$("#tov").text((data.resultSets[0].rowSet[currentSeason][24]));
+		console.log(currentSeason);
 	})
 }
 
